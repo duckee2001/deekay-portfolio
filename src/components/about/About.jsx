@@ -2,9 +2,8 @@ import React from "react";
 import "./about.css";
 import ME from "../../assets/me_2.jpg";
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
-import { VscFolderLibrary } from "react-icons/vsc";
-
+import { RiEnglishInput } from "react-icons/ri";
+import { IoBookSharp } from "react-icons/io5"
 const About = () => {
   return (
     <section id="about">
@@ -21,29 +20,28 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <IoBookSharp className="about__icon" />
+              <h5>Education</h5>
+              <small>3+ Years At University</small>
             </article>
 
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>3+ Months Working As A Freelancer</small>
             </article>
 
             <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <RiEnglishInput className="about__icon" />
+              <h5>English</h5>
+              <small>Intermediate</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eaque
-            ratione quaerat magnam hic aperiam quam illo veniam corporis, vel,
-            ea in tenetur facere molestias facilis est consequuntur! Unde,
-            eligendi!
+            I am getting to be a final year student at Sai Gon University. Well,
+            I would like to work as a Front-end Developer specializing in React
+            language. Hope to have a opportunity to work with you.
           </p>
 
           <a href="#contact" className="btn btn-primary">
